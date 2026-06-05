@@ -1,7 +1,8 @@
 try {
   require.resolve('discord.js-selfbot-v13');
+  require.resolve('debug');
 } catch (e) {
-  require('child_process').execSync('npm i discord.js-selfbot-v13');
+  require('child_process').execSync('npm i discord.js-selfbot-v13 debug');
 }
 
 const { Client } = require('discord.js-selfbot-v13');
