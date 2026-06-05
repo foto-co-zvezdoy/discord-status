@@ -13,7 +13,7 @@ const APP_ID = process.env.APPLICATION_ID;
 client.on('ready', async () => {
   console.log(`СТАТУС УСПЕШНО ЗАПУЩЕН для аккаунта: ${client.user.tag}`);
   
-  const startTime = Date.now() - (170000 * 60 * 60 * 1000);
+  const startTime = Date.now() - (15000 * 60 * 60 * 1000);
 
   client.user.setPresence({
     activities: [{
