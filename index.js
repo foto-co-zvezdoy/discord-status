@@ -1,9 +1,3 @@
-try {
-  require.resolve('discord.js-selfbot-v13');
-} catch (e) {
-  require('child_process').execSync('npm install discord.js-selfbot-v13');
-}
-
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client({ checkUpdate: false });
 
