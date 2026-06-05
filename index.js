@@ -19,11 +19,11 @@ client.on('ready', async () => {
 
   client.user.setPresence({
     activities: [{
-      name: "проводник", 
+      name: "трогаю траву", 
       type: "PLAYING",   
       applicationId: APP_ID,
-      details: "Пытаюсь найти твои мозги", 
-      state: "Элемент не найден",
+      details: "анализ структуры газона", 
+      state: "в процессе трогания",
       timestamps: { start: startTime }
     }],
     status: 'online'
