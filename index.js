@@ -15,7 +15,7 @@ client.on('ready', async () => {
   console.log(`СТАТУС УСПЕШНО ОБНОВЛЕН: ${client.user.tag}`);
   
  
-  const startTime = 1375314000000;
+  const startTime = 1;
 
   client.user.setPresence({
     activities: [{
